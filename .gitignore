@@ -1,0 +1,7 @@
+pki/ca/ca.key
+pki/**/*.key
+pki/**/*.csr
+build/
+# certs (.crt) and dh.pem are safe to commit
+!pki/**/*.crt
+!pki/dh.pem
